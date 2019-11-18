@@ -2,9 +2,9 @@
 
 In this study, the Pesticide Water Calculator (PWC) model was implemented with deterministic and probabilistic approaches and parameterized for three agricultural vernal pool watersheds located in the San Joaquin River basin in the Central Valley of California.
 
-## Getting Started
+## Brief Discription
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+An MC shell wrapper was developed to execute PRZM and VVWM models, sample input parameters and to characterize parameter sensitivity, using R version 1.1.414 (RStudio Team, 2018). The R scripts were structured to set up a local execution environment; load initial PRZM (PRZM.inp) and VVWM input files (vvwmTransfer.txt); parameterize PWC inputs (both PRZM and VVWM); create the PRZM and VVWM inputs distributions; execute PWC by executing PRZM and VVWM; write an input/output file for each Monte Carlo simulation; load input/outputs; and then execute all Monte Carlo simulations (Figure below). PRZM and VVWM output files were saved as R objects which were read back as two-dimensional data frames for sensitivity analysis and post-processing in R. Input parameters were repeatedly sampled using the Latin Hypercube (LH) technique to ensure that sampling points were distributed evenly across all possible values (McKay et al., 1979). A list of inputs sampled, their description, and the range limits of each distribution can be found in published article below.
 
 ### Prerequisites
 
