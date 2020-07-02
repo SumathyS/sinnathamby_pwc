@@ -36,5 +36,5 @@ git clone https://github.com/SumathyS/sinnathamby_pwc.git
 
 
 ## Acknowledgments
-This research was supported in part by an appointment to the Research Program at the at the National Exposure Research Laboratory in the Office of Research Development, U.S. Environmental Protection Agency, administered by the Oak Ridge Institute for Science and Education through Interagency Agreement No. DW8992298301 between the United States Department of Energy and the United States Environmental Protection Agency. 
+This research was supported in part by an appointment to the Research Program at the at the National Exposure Research Laboratory in the Office of Research Development, U.S. Environmental Protection Agency, administered by the Oak Ridge Institute for Science and Education through Interagency Agreement No. DW8992298301 between the United States Department of Energy and the United States Environmental Protection Agency (USEPA). 
 
